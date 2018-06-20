@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @slug.name %>
+</p>
+
+<p>
+  <strong>Img:</strong>
+  <%= @slug.img %>
+</p>
+
+<%= link_to 'Edit', edit_slug_path(@slug) %> |
+<%= link_to 'Back', slugs_path %>
